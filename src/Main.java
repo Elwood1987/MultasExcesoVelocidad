@@ -8,7 +8,7 @@ public class Main {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 
         while(true) {
-            System.out.println("Ingrese los valores a validar por favor");
+            System.out.println("Ingrese los valores");
             String data = input.readLine();
             System.out.println(s.init(data));
         }
