@@ -1,6 +1,6 @@
 public class SpeedingTicket {
 
-    public String init(String data) {
+    public String init(String datos) {
         String[] splitData = data.split(" ");
         int distance = Integer.parseInt(splitData[0]);
         int maximumSpeed =Integer.parseInt(splitData[1]);
